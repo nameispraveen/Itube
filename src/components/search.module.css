@@ -1,0 +1,41 @@
+
+  /* Style for the input text box */
+  input[type='text'] {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* Style for the submit button */
+  button {
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Placeholder text style */
+  ::placeholder {
+    color: #aaa;
+  }
+  
+  /* Icon style (you can use a YouTube icon or search icon here) */
+  .icon {
+    font-size: 24px;
+    color: #555;
+  }
+  
