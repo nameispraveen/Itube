@@ -1,7 +1,7 @@
 .grid_one{
     width: 350px;
     height: 450px;
-    border-style: dotted;
+    margin: 10px;
     color:  white !important;
 }
 .img{
