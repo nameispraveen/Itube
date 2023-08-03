@@ -1,0 +1,10 @@
+.grid_one{
+    width: 350px;
+    height: 450px;
+    border-style: dotted;
+    color:  white !important;
+}
+.img{
+    width: 350px !important;
+    height: 300px !important;
+}
