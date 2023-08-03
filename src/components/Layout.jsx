@@ -1,7 +1,17 @@
 import React from 'react'
-
-export default function Layout() {
+import Grid from './Grid'
+import style from './leyout.module.css'
+export default function Layout({SearchResults}) {
+  console.log("layout ",SearchResults)
   return (
-    <div>Layout</div>
+    <div className={style.layout_main}>
+            {SearchResults
+        ? SearchResults.length > 0 && (
+            <div>
+                {SearchResults.map((item,index) => ( <Grid SearchResults={item} key={index}/>))}
+            </div>
+          )
+        : null}
+    </div>
   )
 }
