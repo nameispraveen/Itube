@@ -1,3 +1,10 @@
-.layout_main{
-    display:  flex;
-}
+/* leyout.module.css */
+
+.layout_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Assuming Grid component styles are handled in the `Grid` component itself */
+  
