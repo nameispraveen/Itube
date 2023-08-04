@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './grid.module.css';
-import { unstable_batchedUpdates } from 'react-dom';
 
 export default function Grid({ SearchResults }) {
-   const[videoid,setvideoid]=unstable_batchedUpdates(null);
+   const[videoid,setvideoid]=useState(null);
     console.log("grid is ",SearchResults);
 
     function videoplayfunction(){
